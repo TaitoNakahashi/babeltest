@@ -1,0 +1,22 @@
+{
+  "name": "babeltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dest",
+    "compact-build": "babel src --compact=true -d dest",
+    "source-map-build": "babel bmi.js -o bmi.out.js --source-maps",
+    "watch": "babel src -w -d dest",
+    "start": "node bmi.out.js",
+    "babel-version": "babel --version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
