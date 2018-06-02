@@ -1,4 +1,4 @@
 # babeltest
-node.js 
-npm
-babel test project
+- node.js 
+- npm
+- babel test project
